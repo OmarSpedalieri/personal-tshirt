@@ -13,10 +13,10 @@
 
                     <span class="creation col-4 d-flex justify-content-between">
                         
-                        <a href = " {{ route('creation-show', $creation -> id) }}" >
+                      
                             
                             [{{$creation -> id }}] - {{ $creation -> processing_name }}
-                        </a>
+                      
                         
                     </span>
                     
