@@ -78,7 +78,7 @@ class ApiController extends Controller
       $creation = Creation::findOrFail($id);
       $creation -> delete($id);
       // return response()->json('creazione'. $id .'cancellata');
-      return redirect() -> route('creations-index');
+      return redirect() -> route('creation-index');
 
 
    }

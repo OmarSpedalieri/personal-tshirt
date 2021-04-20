@@ -81,6 +81,7 @@ footer h3 {
   left: 0x;
   width: 350px;
   height: 450px;
+  background-color: white;
 }
 
 #image_BG {
@@ -119,7 +120,7 @@ footer h3 {
 }
 
 .element {
-  padding: 10px;
+  background-color: white;
   width: 150px;
   height: 200px;
   cursor: pointer;

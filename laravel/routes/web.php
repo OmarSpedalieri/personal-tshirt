@@ -14,13 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 
+Route::get('/', 'CreationController@home') -> name('home');
 Route::get('/creations', 'CreationController@index') -> name('creation-index');
 
-Route::get('/creations/{id}', 'CreationController@edit') -> name('creation-edit');
 
-Route::get('/', 'CreationController@home') -> name('home');
 
-Route::get('/creation/{id}', 'CreationController@show') -> name('creation-show');
 
 
 
